@@ -1,0 +1,118 @@
+* {
+  background: rgb(44, 44, 44);
+}
+
+.uno {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#b1 {
+  color: white;
+  border-radius: 20px;
+  /* border: 1px solid white; */
+  padding: 20px;
+  width: 200px;
+  background-color: rgb(10, 16, 46);
+  display: flex;
+  align-items: center;
+}
+
+#b2 {
+  border: 1px solid rgb(241, 153, 153);
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  color: rgb(153, 89, 64);
+}
+
+#b3 {
+  border-radius: 20px;
+  background-image: url('./assets/fondo.jpg');
+  background-position: left top;
+  background-repeat: repeat;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  color: white;
+  justify-content: center;
+}
+
+#b4 {
+  border-radius: 20px 50px 30px 100px;
+  background-color: brown;
+  width: 200px;
+  height: 150px;
+  padding: 20px;
+
+  display: flex;
+  align-items: center;
+  color: white;
+  justify-content: center;
+}
+
+#b5{
+  border-radius: 50%;
+  background-color: aqua;
+  width: 200px;
+  height: 150px;
+  padding: 20px;
+
+  display: flex;
+  align-items: center;
+  color: white;
+  justify-content: center;
+}
+
+#b6{
+  border: 20px solid greenyellow;
+  width: 250px;
+  height: 250px;
+  padding: 20px;
+  font-size: 22px;
+  background-color: rgb(32, 4, 58);
+  color: white;
+
+  border-image: url('/assets/marco.png') 120 stretch;
+  /* border-image-slice: 24%;
+  border-image-repeat: repeat round;
+  border-image-width: 30px;
+  border-image-outset: 10px; */
+}
+
+#fondo{
+  padding: 25px;
+  border: 12px solid red;
+  width: 340px;
+  height: 280px;
+  /* background: url('./assets/gato.png') top left / 80px no-repeat; */
+  /* background: url('./assets/balon.jpg') top / 100px no-repeat, url(/assets/balon2.jpg) bottom / 200px no-repeat ; */
+  /* background: url(./assets/balon2.jpg); */
+  /* background-size: contain; */
+
+  background: url('./assets/plato.png') center / 180px no-repeat,
+  url('./assets/mesa.jpg') center/cover no-repeat;
+}
+
+#fondo2 {
+  padding: 25px;
+  border: 12px solid red;
+  width: 340px;
+  height: 280px;
+  font-size: 24px;
+  background-color: mediumaquamarine;
+  background-clip: content-box;
+}
+
+
+#degradado {
+  border: 2px solid black;
+  width: 480px;
+  height: 480px;
+  /* background: repeating-linear-gradient(45deg, yellow, yellow 10px, red 10px, red 20px ) */
+  background: linear-gradient(to left, yellow, blue);
+}
