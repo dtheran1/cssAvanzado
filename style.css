@@ -116,3 +116,39 @@
   /* background: repeating-linear-gradient(45deg, yellow, yellow 10px, red 10px, red 20px ) */
   background: linear-gradient(to left, yellow, blue);
 }
+
+#sombra {
+  color: white;
+  font-size: 50px;
+  text-shadow:  3px 3px 25px red, 4px 0px orange;
+  font-weight: bold;
+
+  width: 400px;
+  height: 150px;
+  background: rgb(97, 97, 97);
+  box-shadow: black 0px 3px 10px 1px;
+}
+
+.tarjeta {
+  width: 250px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5), 0 6px 20px;
+  /* background: transparent; */
+}
+
+.numero {
+  background-color: darkred;
+  color: white;
+  padding: 10px;
+  font-size: 50px;
+
+}
+
+.numero h1 {
+  background-color: transparent;
+}
+
+.titulo {
+  padding: 5px;
+  color: aliceblue;
+}
